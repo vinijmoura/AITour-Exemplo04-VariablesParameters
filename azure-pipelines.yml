@@ -4,6 +4,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+stages:
 - stage: build
   dependsOn: 
   - compliance
